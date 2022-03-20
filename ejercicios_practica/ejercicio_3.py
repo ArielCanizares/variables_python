@@ -21,6 +21,10 @@ apellido = str(input())
 
 # Almacenar su nombre completo en una variable
 # nombre_completo = .....
+nya = (nombre + " " + apellido)
+print ("Su nombre completo es:", nya)
 
 # Imprimir la cantidad de letras que posee su nombre completo
 # cantidad_letras = len(....)
+cantidad_letras = len(nya)
+print ("El nombre completo posee", (cantidad_letras -1), "letras.")
